@@ -110,7 +110,7 @@ let config = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "../application.css"
+      filename: "../assets/application.scss"
     }),
     new HardSourceWebpackPlugin(),
     new MinifyPlugin({}, { comments: false }),
